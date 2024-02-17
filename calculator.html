@@ -1,0 +1,32 @@
+<!--#solostudio
+    _  _    _____       _       _____ _             _ _       
+  _| || |_ / ____|     | |     / ____| |           | (_)      
+ |_  __  _| (___   ___ | | ___| (___ | |_ _   _  __| |_  ___  
+  _| || |_ \___ \ / _ \| |/ _ \\___ \| __| | | |/ _` | |/ _ \ 
+ |_  __  _|____) | (_) | | (_) |___) | |_| |_| | (_| | | (_) |
+   |_||_| |_____/ \___/|_|\___/_____/ \__|\__,_|\__,_|_|\___/ 
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Calculator</title>
+  </head>
+  <body>
+      <h2>Calculator By #SoloStudio</h2>
+      <p>Enter the numbers and select the operation:</p>
+      <form action="operate.php" method="post">
+          <input type="number" name="num1" placeholder="Enter first number" style="width: 200px;" required><br><br>
+          <select name="operator">
+              <option value="add">+</option>
+              <option value="subtract">-</option>
+              <option value="multiply">*</option>
+              <option value="divide">/</option>
+          </select><br><br>
+          <input type="number" name="num2" placeholder="Enter second number" style="width: 200px;" required><br><br>
+          <button type="submit">Calculate</button>
+      </form>
+  </body>
+</html>
+<!--#SoloStuio-2024-->
